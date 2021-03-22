@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+tr{
+    height: 45px;
+    font-size: 20px;
+}
+td{
+    padding: 5px;
+    border: 2px solid turquoise;
+}
+tr>td:nth-of-type(1){
+    width: 70%;
+}
+img{
+    height: 40px;
+}
+input{
+    width: 70%;
+}
+.hide{
+    display: none ;
+}
+.show{
+    display: block !important;
+}
+table tr td div section:nth-of-type(2){
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 50px; */
+    height: 50px;
+}
+.true{
+    background-image: url(./images/ok.png);
+}
+.false{
+    background-image: url(./images/false.png);
+}
